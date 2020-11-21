@@ -1,0 +1,13 @@
+<section class="section in-the-news">
+  <div class="section__title">In the News</div>
+  <div class="section__content">
+    {% for news in site.data.in-news %}
+    <div class="project">
+      <div class="project__name">
+        <a href="{{news.url}}" target="_blank" class="arrow-link">{{news.name}}</a>
+      </div>
+      <p>{{news.description}}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

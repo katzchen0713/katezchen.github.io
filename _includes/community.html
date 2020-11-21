@@ -1,0 +1,18 @@
+<section class="section community">
+  <div class="section__title">Community</div>
+  <div class="section__content">
+    <div class="jobs">
+      {% for org in site.data.community %}
+      <div class="job">
+        <div class="time-place">
+          <div class="job__company">
+            <a href="{{org.url}}" target="_blank">{{org.organization}}</a>
+          </div>
+          <div class="job__time">{{org.time}}</div>
+        </div>
+        <div class="job__position">{{org.purpose}}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
