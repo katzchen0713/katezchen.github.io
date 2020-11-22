@@ -7,4 +7,6 @@
     width: 28%;
     display: none;
   }
+}#site > section.section.community{
+  padding-bottom: 0px !important;
 }
