@@ -70,9 +70,7 @@ $(function() {
   });
 
   sr.reveal('.background');
-  // sr.reveal('.skills');
   sr.reveal('.experience', { viewFactor: 0.2 });
   sr.reveal('.community', { viewFactor: 0.05 });
-  // sr.reveal('.featured-projects', { viewFactor: 0.1 });
-  sr.reveal('.in-news', { viewFactor: 0.05 });
+  sr.reveal('.project', { viewFactor: 0.1 });
 });
